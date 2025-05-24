@@ -1,0 +1,13 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "jsx": "react-jsx"
+  },
+   "include": [
+    "src/assets/**/*"                        // Include all files under the `src` directory
+  ]
+}
